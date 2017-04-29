@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     ListView lvTodos;
 
+
     //Declaro los edittext
     EditText edtLibro;
     EditText edtLeido;
@@ -27,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void registrar (View v){
 
-        //Obtengo las referencias a los editText
+        //Obtengo las referencias a los editText LIBRO Y LEIDO
         edtLibro=(EditText)this.findViewById(R.id.etLibro);
         edtLeido=(EditText)this.findViewById(R.id.edtLeido);
 
